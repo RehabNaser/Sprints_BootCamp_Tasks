@@ -2,5 +2,5 @@
 int main(void)
 {
 	//print Hello Sprints
-	printf("Hello Sprints\n");
+	printf("Hello Sprints.\n");
 }
