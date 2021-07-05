@@ -8,7 +8,6 @@
 int main (void)
 {
 	uint32_t Array[ARRAY_SIZE]={1,2,3,3,5};
-	Array[5]=10;
 	uint32_t Key = 10;
 	uint8_t Index=BinarySearch(Array,ARRAY_SIZE,Key);
 
