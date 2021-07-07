@@ -31,4 +31,5 @@ typedef int16_t* 				ptr_int16_t;
 typedef int32_t* 				ptr_int32_t;
 typedef int64_t* 				ptr_int64_t;
 
+typedef void(*Ptr_VoidFuncVoid_t)(void);
 #endif
