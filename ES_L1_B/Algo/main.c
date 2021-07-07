@@ -7,8 +7,8 @@
 
 int main (void)
 {
-	uint32_t Array[ARRAY_SIZE]={1,2,3,3,5};
-	uint32_t Key = 10;
+	uint32_t Array[ARRAY_SIZE]={5,3,4,1,5};
+	uint32_t Key = 5;
 	uint8_t Index=BinarySearch(Array,ARRAY_SIZE,Key);
 
 	if( Index == NOT_FOUND)
