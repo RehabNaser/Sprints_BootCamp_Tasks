@@ -15,19 +15,19 @@
 	#define OC0_WAVEFORM_MODE	DISCONNECT
 #endif
 
-#define OC1A 0
-#define OC1B 0
+#define OC1A 1
+#define OC1B 1
 #if (OC1A || OC1B)
-	#define OC1_FREQUANCY		OC1_NO_CLK
+	#define OC1_FREQUANCY		OC1_CLK_1024
 	#define OC1_MODE			OC1_FAST_PWM_8BITS
 #endif
 
 #if OC1A
-	#define OC1A_WAVEFORM_MODE	DISCONNECT
+	#define OC1A_WAVEFORM_MODE	NON_INVERTING
 #endif
 
 #if OC1B
-	#define OC1B_WAVEFORM_MODE	DISCONNECT
+	#define OC1B_WAVEFORM_MODE	NON_INVERTING
 #endif
 
 #define OC2 0
