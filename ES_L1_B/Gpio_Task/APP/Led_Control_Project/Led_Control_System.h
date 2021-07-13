@@ -5,12 +5,13 @@
  * Description: Header File for The Led Control System ...
  */ 
 
-#ifndef __Led_CONTROL_SYSTEM__
-#define __Led_CONTROL_SYSTEM__
+#ifndef __LED_CONTROL_SYSTEM__
+#define __LED_CONTROL_SYSTEM__
 
 //FILES INCLUDING
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
+#include "Gpio.h"
 #include "Button.h"
 
 
