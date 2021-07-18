@@ -33,13 +33,13 @@
 
 
 //UARTs NUMBER
-enum Enu_UARtNumber
+enum Enu_UARTNumber
 {
 	UART_0 = 0
 };
 
 //UART INTERRUPTS TYPES
-enum Enu_UARtInterruptsTypes
+enum Enu_UARTInterruptsTypes
 {
 	RX_COMPLETE = 0,
 	TX_COMPLETE = 1,
@@ -52,7 +52,7 @@ enum Enu_UARtInterruptsTypes
 
 
 //UART DATA SIZE
-enum Enu_UARtDataSize
+enum Enu_UARTDataSize
 {
 	FIVE_BITS = 0,
 	SIX_BITS = 1,
@@ -62,7 +62,7 @@ enum Enu_UARtDataSize
 };
 
 //UART STOP BITS SIZE
-enum Enu_UARtStopBitsSize
+enum Enu_UARTStopBitsSize
 {
 	ONE_STOP_BIT = 0,
 	TWO_STOP_BIT = 1
@@ -70,7 +70,7 @@ enum Enu_UARtStopBitsSize
 };
 
 //UART PARITY MODES
-enum Enu_UARtParityModes
+enum Enu_UARTParityModes
 {
 	NO_PARITY = 0,
 	EVEN_PARITY = 2,
@@ -79,13 +79,13 @@ enum Enu_UARtParityModes
 };
 
 //USART MODES
-enum Enu_UARtModes
+enum Enu_UARTModes
 {
 	ASYNCHRONOUS = 0,
 	SYNCHRONOUS = 1,
 };
 
-enum Enu_UARtDataToRead
+enum Enu_UARTDataToRead
 {
 	NOT_AVAILABLE = 0,
 	AVAILABLE = 1,
