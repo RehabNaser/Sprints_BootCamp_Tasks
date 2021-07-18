@@ -318,10 +318,36 @@
 /************************************************************************/
 //TWI REGISTERS
 #define TWCR *((volatile ptr_uint8_t)(0X56))
-
+#define TWDR *((volatile ptr_uint8_t)(0X23))
+#define TWAR *((volatile ptr_uint8_t)(0X22))
+#define TWSR *((volatile ptr_uint8_t)(0X21))
+#define TWBR *((volatile ptr_uint8_t)(0X20))
 
 //TWCR REGISTER BITS
 #define TWIE BIT0
+#define TWEN BIT2
+#define TWWC BIT3
+#define TWSTO BIT4
+#define TWSTA BIT5
+#define TWEA BIT6
+#define TWINT BIT7
+//TWAR REGISTER BITS
+#define TWGCE BIT0
+#define TWA0 BIT1
+#define TWA1 BIT2
+#define TWA2 BIT3
+#define TWA3 BIT4
+#define TWA4 BIT5
+#define TWA5 BIT6
+#define TWA6 BIT7
+//TWSR REGISTER BITS
+#define TWPS0 BIT0
+#define TWPS1 BIT1
+#define TWS3 BIT3
+#define TWS4 BIT4
+#define TWS5 BIT5
+#define TWS6 BIT6
+#define TWS7 BIT7
 /************************************************************************/
 /*                   ANALOG COMPARATOR REGISTERS                        */
 /************************************************************************/
