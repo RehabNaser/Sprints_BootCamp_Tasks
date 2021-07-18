@@ -5,8 +5,8 @@
  * Description: Header File for UART Module Return Value for Error Handling....
  */ 
 
-#ifndef __UART_RetVal__
-#define __UART_RetVal__
+#ifndef __UART_RETVAL__
+#define __UART_RETVAL__
 
 #define ERROR_OK 0 //No Error
 
