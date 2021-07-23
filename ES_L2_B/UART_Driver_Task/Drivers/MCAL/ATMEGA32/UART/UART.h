@@ -9,7 +9,7 @@
 #define __UART__
 
 //FILES INCLUDING
-#include <avr/interrupt.h>
+//#include <avr/interrupt.h>
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
 #include "MC_REGISTERS.h"

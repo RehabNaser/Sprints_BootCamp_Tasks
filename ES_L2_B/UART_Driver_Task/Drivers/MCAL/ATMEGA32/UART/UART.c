@@ -212,7 +212,7 @@ uint8_t UART_SetCallback(uint8_t UARTNumber,uint8_t UARTInterruptType,Ptr_VoidFu
 }
 
 #if  UART0
-	#if 1
+	#if 0
 		ISR (USART_RXC_vect)
 		{
 			saptr_UART0InterruptCallback[RX_COMPLETE]();
@@ -224,7 +224,7 @@ uint8_t UART_SetCallback(uint8_t UARTNumber,uint8_t UARTInterruptType,Ptr_VoidFu
 			saptr_UART0InterruptCallback[TX_COMPLETE]();
 		}
 	#endif
-	#if 1
+	#if 0
 		ISR (USART_UDRE_vect)
 		{
 			saptr_UART0InterruptCallback[DATA_REGISTER_EMPTY]();	
