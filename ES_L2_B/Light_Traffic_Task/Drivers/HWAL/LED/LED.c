@@ -13,7 +13,7 @@ uint8_t LED_Init(void)
 {
 	for(uint8_t au8_IterationNo=0;au8_IterationNo<LEDS_MAX_NUMBERS;au8_IterationNo++)
 	{
-		GpioSetPinDirection(	gastr_LEDConfig[au8_IterationNo].LEDPort,
+		DIO_SetPinDirection(	gastr_LEDConfig[au8_IterationNo].LEDPort,
 								gastr_LEDConfig[au8_IterationNo].LEDPin,
 								gastr_LEDConfig[au8_IterationNo].LEDDirection );			
 	}	
