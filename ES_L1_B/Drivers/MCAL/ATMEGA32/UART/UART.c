@@ -66,13 +66,16 @@ uint8_t UART_TransmitString(uint8_t UARTNumber,ptr_uint8_t TxString)
 	{
 		#if  UART0
 			case UART_0:
-				for(uint8_t i=0;TxString[i]!='\0';i++)
+			{
+				uint8_t i=0;		
+				do
 				{
 					while(!(BIT_GET(UCSRA,UDRE)));
 					REG_WRITE(UDR,TxString[i]);
 					for(uint32_t i=0;i<20000;i++);
-				}
-				break;			
+				}while(TxString[i++]!='\0');	
+				break;
+			}			
 		#endif
 		default:
 			break;
