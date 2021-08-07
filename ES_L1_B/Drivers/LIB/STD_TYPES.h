@@ -26,10 +26,10 @@ volatile typedef uint16_t* 				ptr_uint16_t;
 volatile typedef uint32_t* 				ptr_uint32_t;
 volatile typedef uint64_t* 				ptr_uint64_t;
 
-volatile	typedef int8_t* 				ptr_int8_t;
-volatile	typedef int16_t* 				ptr_int16_t;
-volatile	typedef int32_t* 				ptr_int32_t;
-volatile	typedef int64_t* 				ptr_int64_t;
+volatile typedef int8_t* 				ptr_int8_t;
+volatile typedef int16_t* 				ptr_int16_t;
+volatile typedef int32_t* 				ptr_int32_t;
+volatile typedef int64_t* 				ptr_int64_t;
 
 volatile typedef void(*Ptr_VoidFuncVoid_t)(void);
 #endif
