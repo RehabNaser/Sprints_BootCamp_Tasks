@@ -331,6 +331,15 @@
 #define TWSTA BIT5
 #define TWEA BIT6
 #define TWINT BIT7
+//TWDR REGISTER BITS
+#define TWD0 BIT0
+#define TWD1 BIT1
+#define TWD2 BIT2
+#define TWD3 BIT3
+#define TWD4 BIT4
+#define TWD5 BIT5
+#define TWD6 BIT6
+#define TWD7 BIT7
 //TWAR REGISTER BITS
 #define TWGCE BIT0
 #define TWA0 BIT1
