@@ -10,6 +10,16 @@
 
 /*****************************************************GENERAL MACROS*************************************************/
 //GENERAL MACROS
+#define BIT_0 0
+#define BIT_1 1
+#define BIT_2 2
+#define BIT_3 3
+#define BIT_4 4
+#define BIT_5 5
+#define BIT_6 6
+#define BIT_7 7
+
+
 #define BIT_LOW 0
 #define TWO_BITS_LOW 0
 #define THREE_BITS_LOW 0
