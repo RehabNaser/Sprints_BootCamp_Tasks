@@ -41,5 +41,4 @@ void UnitTestingRun(Ptr_VoidFuncVoid_t Callback)
 	printf("All Test Cases Number: %d\n",TestCasesCounter);
 	printf("Failed Test Cases Number: %d\n",FailedTestCasesCounter);
 	printf("Passed Test Cases Number: %d\n",PassedTestCasesCounter);
-	system("pause");
 }
